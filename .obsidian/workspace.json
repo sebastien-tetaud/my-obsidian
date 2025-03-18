@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice/Github.md",
+                "file": "Stellar Formation/Ramses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Github"
+              "title": "Ramses"
             }
           }
         ]
@@ -165,17 +165,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec41acec2a40141b",
+  "active": "47723a0de036fa31",
   "lastOpenFiles": [
+    "Data Visualization/Open3D/Octree.md",
+    "Stellar Formation/Ramses.md",
+    "Data Visualization/Open3D/Headless Rendering installation.md",
+    "Best Practice/Github.md",
     "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
     "Data Visualization/matplotlib/Cheat Sheet.md",
-    "Data Visualization/Open3D/Headless Rendering installation.md",
     "Data Visualization/Video generation/FFMPEG.md",
-    "Stellar Formation/radmc-3d.md",
     "Super Resolution/SwinIR  Super Resolution.md",
     "Super Resolution/Super Resolution.md",
     "Super Resolution/Data Normalization.md",
-    "Best Practice/Github.md",
     "Data Visualization/matplotlib",
     "2025-03-14.md",
     "Best Practice",
