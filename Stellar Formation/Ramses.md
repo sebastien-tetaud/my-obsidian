@@ -22,4 +22,4 @@ y
 
 ## From AMR to Array
 
-The size of your 3D array depends primarily on two factors: the base grid dimensions and the maximum refinement level. The number of branches (`nbranchmax`) doesn't directly affect the array size, but rather tells you how much memory you'll need to store the octree structure.
+The size of your 3D array depends primarily on two factors: the base grid dimensions and the maximum refinement level. The number of branches (`nbranchmax`) doesn't directly affect the array size, but rather tells you how much memory you'll need to store the Octree structure.

@@ -1,5 +1,5 @@
 
-[[Github]]
+
 
 Embedding a video in Markdown is a simple process that can be accomplished using a few different methods.
 

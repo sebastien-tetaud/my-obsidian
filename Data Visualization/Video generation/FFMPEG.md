@@ -1,6 +1,6 @@
 [[Headless Rendering installation]]
-[[Data Visualization/matplotlib/Cheat Sheet]]
 [[Field Vector Quiver Plot]]
+
 
 
 ```bash

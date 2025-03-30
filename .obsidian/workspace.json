@@ -11,14 +11,10 @@
             "id": "47723a0de036fa31",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stellar Formation/Ramses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ramses"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -167,16 +163,27 @@
   },
   "active": "47723a0de036fa31",
   "lastOpenFiles": [
+    "Deep Learning/Deep Learning.md",
+    "Deep Learning",
+    "Best Practice/Markdown/Markdown Embedding a video.md",
+    "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
+    "Best Practice/Github/Github Cheat Sheet.md",
+    "Best Practice/Best practice.md",
+    "Data Visualization/Video generation/FFMPEG.md",
+    "Deep Learning/Super Resolution/Data Normalization.md",
+    "Deep Learning/Super Resolution/Super Resolution.md",
+    "Deep Learning/Super Resolution/SwinIR  Super Resolution.md",
+    "Data Visualization/matplotlib/Matplotlib Cheat Sheet.md",
     "Data Visualization/Open3D/Octree.md",
-    "Stellar Formation/Ramses.md",
+    "Data Visualization/Data Visualization.md",
     "Data Visualization/Open3D/Headless Rendering installation.md",
+    "Data Visualization/Data visualization.md",
+    "Stellar Formation/Ramses.md",
+    "Best Practice/Markdown",
+    "Best Practice/Github",
+    "Best Practice/Conda 🐍",
     "Best Practice/Github.md",
     "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
-    "Data Visualization/matplotlib/Cheat Sheet.md",
-    "Data Visualization/Video generation/FFMPEG.md",
-    "Super Resolution/SwinIR  Super Resolution.md",
-    "Super Resolution/Super Resolution.md",
-    "Super Resolution/Data Normalization.md",
     "Data Visualization/matplotlib",
     "2025-03-14.md",
     "Best Practice",
@@ -188,10 +195,6 @@
     "ESA",
     "ESA/Untitled.md",
     "ESA",
-    "ESA",
-    "t2m_30fps.mp4",
-    "Data Visualization/Open3D",
-    "Data Visualization/Earth Observation",
     "DestinE.md",
     "super test.md",
     "Welcome.md",
