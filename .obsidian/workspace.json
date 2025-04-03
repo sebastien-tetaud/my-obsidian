@@ -11,10 +11,14 @@
             "id": "47723a0de036fa31",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Data Visualization/matplotlib/Matplotlib Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Matplotlib Cheat Sheet"
             }
           }
         ]
@@ -163,21 +167,23 @@
   },
   "active": "47723a0de036fa31",
   "lastOpenFiles": [
+    "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
+    "Best Practice/Github/Github Cheat Sheet.md",
+    "Web Dev/Web Dev.md",
+    "Web Dev/Front-End/Install Node.js.md",
+    "Web Dev/Front-End/Frond-end Stacks.md",
+    "Stellar Formation/Ramses.md",
     "To Read/To Read.md",
     "Best Practice/Best practice.md",
     "To Read",
     "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
     "Untitled.canvas",
-    "Web Dev/Web Dev.md",
-    "Web Dev/Front-End/Frond-end Stacks.md",
     "Web Dev/Front-End",
     "Web Dev",
     "Deep Learning/Deep Learning.md",
     "Stellar Formation/Stellar formation.md",
     "Deep Learning",
     "Best Practice/Markdown/Markdown Embedding a video.md",
-    "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
-    "Best Practice/Github/Github Cheat Sheet.md",
     "Data Visualization/Video generation/FFMPEG.md",
     "Deep Learning/Super Resolution/Data Normalization.md",
     "Deep Learning/Super Resolution/Super Resolution.md",
@@ -187,7 +193,6 @@
     "Data Visualization/Data Visualization.md",
     "Data Visualization/Open3D/Headless Rendering installation.md",
     "Data Visualization/Data visualization.md",
-    "Stellar Formation/Ramses.md",
     "Best Practice/Markdown",
     "Best Practice/Github",
     "Best Practice/Conda 🐍",
@@ -198,7 +203,6 @@
     "ESA/SOW/Untitled.md",
     "Untitled.md",
     "Data Visualization/Video generation",
-    "ESA/Untitled.md",
-    "DestinE.md"
+    "ESA/Untitled.md"
   ]
 }
