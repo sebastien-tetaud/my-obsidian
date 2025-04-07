@@ -10,3 +10,8 @@ conda remove -n ENV_NAME --all
 ```bash
 conda env list
 ```
+
+
+```
+pip-chill --no-chill -v > requirements.txt
+```

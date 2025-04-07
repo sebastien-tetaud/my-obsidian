@@ -22,7 +22,7 @@ ax.set_title('DEM')
 plt.show()
 ```
 
-### Save Figure without bordel
+### Save Figure without border
 
 - Don't put any title or xlabel/ylabel and colorbar()
 

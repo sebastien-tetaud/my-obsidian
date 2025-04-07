@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Matplotlib Cheat Sheet"
             }
+          },
+          {
+            "id": "ff5e4205ee91f1f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tmp"
+            }
+          },
+          {
+            "id": "777067d0ce755082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conda Cheat Sheet"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 206.50043487548828
   },
   "right": {
     "id": "d367a672efc1eb08",
@@ -165,18 +194,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47723a0de036fa31",
+  "active": "777067d0ce755082",
   "lastOpenFiles": [
-    "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
     "Best Practice/Github/Github Cheat Sheet.md",
-    "Web Dev/Web Dev.md",
+    "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
     "Web Dev/Front-End/Install Node.js.md",
     "Web Dev/Front-End/Frond-end Stacks.md",
-    "Stellar Formation/Ramses.md",
+    "Deep Learning/Super Resolution/Data Normalization.md",
+    "Data Visualization/matplotlib/Matplotlib Cheat Sheet.md",
+    "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
+    "Data Visualization/Video generation/FFMPEG.md",
     "To Read/To Read.md",
+    "Korean/Korean.md",
+    "tmp.md",
+    "Korean/Sogang 2A.md",
+    "Korean/Untitled",
+    "Korean",
+    "Web Dev/Web Dev.md",
+    "Stellar Formation/Ramses.md",
     "Best Practice/Best practice.md",
     "To Read",
-    "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
     "Untitled.canvas",
     "Web Dev/Front-End",
     "Web Dev",
@@ -184,11 +221,8 @@
     "Stellar Formation/Stellar formation.md",
     "Deep Learning",
     "Best Practice/Markdown/Markdown Embedding a video.md",
-    "Data Visualization/Video generation/FFMPEG.md",
-    "Deep Learning/Super Resolution/Data Normalization.md",
     "Deep Learning/Super Resolution/Super Resolution.md",
     "Deep Learning/Super Resolution/SwinIR  Super Resolution.md",
-    "Data Visualization/matplotlib/Matplotlib Cheat Sheet.md",
     "Data Visualization/Open3D/Octree.md",
     "Data Visualization/Data Visualization.md",
     "Data Visualization/Open3D/Headless Rendering installation.md",
@@ -198,11 +232,6 @@
     "Best Practice/Conda 🐍",
     "Best Practice/Github.md",
     "Data Visualization/matplotlib",
-    "2025-03-14.md",
-    "Best Practice",
-    "ESA/SOW/Untitled.md",
-    "Untitled.md",
-    "Data Visualization/Video generation",
-    "ESA/Untitled.md"
+    "2025-03-14.md"
   ]
 }
