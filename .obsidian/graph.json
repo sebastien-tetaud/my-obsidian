@@ -1,22 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Data Visualization",
+      "color": {
+        "a": 1,
+        "rgb": 9068021
+      }
+    },
+    {
+      "query": "Web Dev",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "Deep Learning",
+      "color": {
+        "a": 1,
+        "rgb": 13193952
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -2.1,
-  "nodeSizeMultiplier": 1.55628255208333,
-  "lineSizeMultiplier": 1.70342610677083,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.21496402877698,
+  "lineSizeMultiplier": 1.62489208633094,
   "collapse-forces": false,
-  "centerStrength": 0.5048828125,
-  "repelStrength": 3.642578125,
+  "centerStrength": 0.247944501541624,
+  "repelStrength": 12.7297019527235,
   "linkStrength": 1,
-  "linkDistance": 233,
-  "scale": 1.8423034992868117,
+  "linkDistance": 309,
+  "scale": 0.5555774768115009,
   "close": true
 }

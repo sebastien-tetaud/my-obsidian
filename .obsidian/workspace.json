@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e926fdf28be694fd",
+        "id": "49de181f1a2be6cd",
         "type": "tabs",
         "children": [
           {
-            "id": "47723a0de036fa31",
+            "id": "3a801422c7c5b6ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stellar Formation/Ramses.md",
+                "file": "Earth Observation/AI-Processor/Sentinel 2 - Dataset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ramses"
+              "title": "Sentinel 2 - Dataset"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 368.5026054382324
   },
   "right": {
     "id": "d367a672efc1eb08",
@@ -165,36 +165,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47723a0de036fa31",
+  "active": "3a801422c7c5b6ab",
   "lastOpenFiles": [
-    "Data Visualization/Open3D/Octree.md",
-    "Stellar Formation/Ramses.md",
-    "Data Visualization/Open3D/Headless Rendering installation.md",
-    "Best Practice/Github.md",
-    "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
-    "Data Visualization/matplotlib/Cheat Sheet.md",
-    "Data Visualization/Video generation/FFMPEG.md",
-    "Super Resolution/SwinIR  Super Resolution.md",
-    "Super Resolution/Super Resolution.md",
-    "Super Resolution/Data Normalization.md",
-    "Data Visualization/matplotlib",
-    "2025-03-14.md",
-    "Best Practice",
-    "Untitled.canvas",
-    "ESA/SOW/Untitled.md",
     "Untitled.md",
-    "Data Visualization/Video generation",
-    "ESA/SOW",
+    "Earth Observation/AI-Processor/Sentinel 2 - Dataset.md",
+    "Screenshot 2025-05-01 at 19.46.17.png",
+    "Earth Observation/AI-Processor/Training Planning.md",
+    "Deep Learning/Untitled.md",
+    "2025-04-30.md",
+    "tmp.md",
+    "2025-04-22.md",
+    "Untitled.canvas",
+    "Earth Observation/AI-Processor/Sentinel 2  - Toward L2A processor.md",
+    "Earth Observation/AI-Processor",
+    "Earth Observation/Index.md",
+    "Deep Learning/Deep Learning.md",
+    "Deep Learning/Loss Functions/Normalized Weighted Loss.md",
+    "Super Resolution/Data Normalization.md",
+    "Best Practice/Best practice.md",
+    "Deep Learning/Structure.md",
+    "Deep Learning/Loss Functions/Lookahead Optimizer k steps forward, 1 step back.md",
+    "Linux/Cheat Sheet.md",
+    "Deep Learning/Learning Scheduler/Learning Rate Schedule.md",
+    "Deep Learning/Learning Scheduler",
+    "Best Practice/Linux/Linux.md",
+    "Deep Learning/Sentinel2 AI/Schedule.md",
+    "Web Dev/Front-End/Install Node.js.md",
+    "Web Dev/Front-End/Frond-end Stacks.md",
+    "Web Dev/Web Dev.md",
+    "Super Resolution/Super Resolution.md",
+    "Deep Learning/Super Resolution/Data Normalization.md",
+    "Deep Learning/Super Resolution/Super Resolution.md",
+    "ESA/CDSE",
+    "Deep Learning/Loss Functions",
+    "Deep Learning/Divers",
+    "Best Practice/Python",
+    "Earth Observation/Untitled",
+    "Earth Observation",
     "ESA",
-    "ESA/Untitled.md",
-    "ESA",
-    "ESA",
-    "t2m_30fps.mp4",
-    "Data Visualization/Open3D",
-    "Data Visualization/Earth Observation",
-    "DestinE.md",
-    "super test.md",
-    "Welcome.md",
-    "create a link.md"
+    "Linux"
   ]
 }
