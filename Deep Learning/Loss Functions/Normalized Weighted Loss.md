@@ -90,3 +90,51 @@ weighted_sam = valid_pixel_weighted_loss(y_pred, y_true, sam_loss_fn)
 
 # Combine weighted losses
 combined_loss = self.alpha * weighted_sam + self.beta * weighted_mse
+<<<<<<< HEAD
+=======
+
+
+
+# Weighted Valid Pixels MSE Loss Equation
+
+
+The FlexibleWeightedLoss function can be expressed mathematically as follows:
+
+$$L = \frac{\sum_{b=1}^{B} \sum_{c=1}^{C} w_{b,c} \cdot \mathcal{L}_{base}(\hat{y}_{b,c}^{valid}, y_{b,c}^{valid})}{\sum_{b=1}^{B} \sum_{c=1}^{C} w_{b,c}}$$
+
+where:
+
+- $B$ is the batch size
+- $C$ is the number of channels
+- $\hat{y}_{b,c}^{valid}$ represents valid output pixels from batch $b$, channel $c$
+- $y_{b,c}^{valid}$ represents valid target pixels from batch $b$, channel $c$
+- $\mathcal{L}_{base}$ is the provided base loss function
+- $w_{b,c}$ is the weight for batch $b$, channel $c$, calculated as:
+
+$$w_{b,c} = \sqrt{\frac{|V_{b,c}|}{|T_{b,c}|}}$$
+
+where:
+- $V_{b,c}$ is the set of valid pixels in batch $b$, channel $c$ (where $y_{b,c} > threshold$)
+- $|V_{b,c}|$ is the number of valid pixels
+- $|T_{b,c}|$ is the total number of pixels in the channel
+- The weight is the square root of the ratio of valid pixels
+
+## Strategy Summary
+
+1. **Per-Channel Processing**: The loss is calculated separately for each channel of each sample in the batch, allowing channel-specific handling of valid pixels.
+
+2. **Valid Pixel Identification**: Only pixels where the target value exceeds the threshold are considered in the loss calculation.
+
+3. **Confidence-Based Weighting**: Channels with a higher percentage of valid pixels receive proportionally more weight, but using a square root relationship dampens the effect (less aggressive than linear weighting).
+
+4. **Automatic Channel Skipping**: Channels with no valid pixels are automatically skipped, avoiding division by zero errors.
+
+5. **Flexible Base Loss**: The strategy allows any base loss function to be applied to the valid pixels, making it highly adaptable.
+
+6. **Optional Reduction Methods**: The final loss can be returned without reduction, as a sum, or as a weighted mean (default).
+
+This approach is particularly valuable when working with multi-channel data where certain channels might have missing or invalid values, ensuring that the loss calculation remains robust while appropriately weighting the contribution of more reliable channels.
+
+
+{'B02': {'psnr': 38.023719787597656, 'rmse': 0.01255492027848959, 'ssim': 0.8985748291015625, 'sam': 0.042418792843818665}, 'B03': {'psnr': 37.52005386352539, 'rmse': 0.013304460793733597, 'ssim': 0.854997456073761, 'sam': 0.044794630259275436}, 'B04': {'psnr': 37.42122268676758, 'rmse': 0.013456709682941437, 'ssim': 0.8813020586967468, 'sam': 0.04398823902010918}}
+>>>>>>> 7abb9be783c8d0bd0bb352e098c767e1e4c2a5f0

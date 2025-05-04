@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "58dcce8fd0988015",
+    "id": "d4d385687b3d85e9",
     "type": "split",
     "children": [
       {
-        "id": "c139ba79713aa005",
+        "id": "b36f0656cd2f542e",
         "type": "tabs",
         "children": [
           {
-            "id": "152f983c14bee316",
+            "id": "b96126f00464c819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Best Practice/Linux/Linux.md",
+                "file": "To Read/To Read.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "To Read"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "807bf06aa15239a9",
+    "id": "47ecd270dc2df7fc",
     "type": "split",
     "children": [
       {
-        "id": "06343b65ba96c0a1",
+        "id": "c7b6a781dda02e6a",
         "type": "tabs",
         "children": [
           {
-            "id": "ec41acec2a40141b",
+            "id": "37d323be5987554d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +48,12 @@
             }
           },
           {
-            "id": "6e59625c56e4dba2",
+            "id": "b32b4dcf582ea8a2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Computing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "ef5ea58cc00efba7",
+            "id": "7940fd9a06412f16",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.50043487548828
+    "width": 300
   },
   "right": {
-    "id": "d367a672efc1eb08",
+    "id": "1a8db876ab1234d1",
     "type": "split",
     "children": [
       {
-        "id": "f20b4fc21ae91ee8",
+        "id": "013b0a45045cbe49",
         "type": "tabs",
         "children": [
           {
-            "id": "079c97be0c09ed76",
+            "id": "5eba60d9201b4f79",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Earth Observation/Sentinel 2 - Dataset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Sentinel 2 - Dataset"
             }
           },
           {
-            "id": "d6c6a95d8999d6e7",
+            "id": "a18e78ba8e461776",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Earth Observation/Sentinel 2 - Dataset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Sentinel 2 - Dataset"
             }
           },
           {
-            "id": "ef17e4d53e84e4aa",
+            "id": "12030e508420fefd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,17 +137,18 @@
             }
           },
           {
-            "id": "66d4ae4b07369693",
+            "id": "558c0510d4752a61",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Earth Observation/Sentinel 2 - Dataset.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Sentinel 2 - Dataset"
             }
           }
         ]
@@ -165,43 +168,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "152f983c14bee316",
+  "active": "b96126f00464c819",
   "lastOpenFiles": [
-    "Deep Learning/Sentinel2 AI/Sentinel 2 AI processor.md",
-    "Deep Learning/Sentinel2 AI/Untitled.canvas",
-    "Deep Learning/Deep Learning.md",
-    "Deep Learning/Sentinel2 AI",
-    "Best Practice/Best practice.md",
-    "Best Practice/Linux/Linux.md",
-    "Best Practice/Linux",
-    "Web Dev/Web Dev.md",
-    "Web Dev/Front-End/Install Node.js.md",
-    "Best Practice/Conda 🐍/Conda Cheat Sheet.md",
-    "Best Practice/Github/Github Cheat Sheet.md",
-    "Web Dev/Front-End/Frond-end Stacks.md",
-    "Deep Learning/Super Resolution/Data Normalization.md",
-    "Data Visualization/matplotlib/Matplotlib Cheat Sheet.md",
-    "Data Visualization/Earth Observation/Field Vector Quiver Plot.md",
-    "Data Visualization/Video generation/FFMPEG.md",
-    "To Read/To Read.md",
-    "Korean/Korean.md",
+    "GCF.md",
+    "Earth Observation/Sentinel 2 - Dataset.md",
+    "2025-05-03.md",
+    "Untitled.canvas",
+    "Earth Observation/Sentinel 2  - Toward L2A processor.md",
+    "Earth Observation/Paper Draft.md",
+    "Earth Observation/Index.md",
     "tmp.md",
-    "Korean/Sogang 2A.md",
-    "Korean/Untitled",
-    "Korean",
-    "Stellar Formation/Ramses.md",
-    "To Read",
-    "Web Dev/Front-End",
-    "Web Dev",
-    "Stellar Formation/Stellar formation.md",
-    "Deep Learning",
-    "Best Practice/Markdown/Markdown Embedding a video.md",
-    "Deep Learning/Super Resolution/Super Resolution.md",
-    "Deep Learning/Super Resolution/SwinIR  Super Resolution.md",
-    "Data Visualization/Open3D/Octree.md",
-    "Data Visualization/Data Visualization.md",
-    "Data Visualization/Open3D/Headless Rendering installation.md",
-    "Best Practice/Markdown",
-    "Best Practice/Github"
+    "Screenshot 2025-05-01 at 19.46.17.png",
+    "2025-04-22.md",
+    "2025-04-30.md"
   ]
 }

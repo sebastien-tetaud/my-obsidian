@@ -66,7 +66,7 @@ Level 2C:
 The TCI color is generated with generate with the Band 2, Band 3 and Band 2
 https://custom-scripts.sentinel-hub.com/sentinel-2/l2a_optimized/
 
-## Sentinel-2 Dataset Preparation: Central Europe Study Area
+# Sentinel-2 Dataset Preparation: Central Europe Study Area
 
 ## Data Selection and Preprocessing
 
@@ -119,7 +119,7 @@ band_s3_url = "/Sentinel-2/MSI/L1C/2025/01/01/S2A_MSIL1C_20250101T104441_N0511_R
 
 
 
-## Computing Loss Only for Valid Pixels in Satellite Images
+# Computing Loss Only for Valid Pixels in Satellite Images
 
 When dealing with satellite imagery that contains no-data regions (like acquisition borders), we need to mask out these invalid pixels when computing your loss. Here are several approaches you can implement:
 ## 1. Using a Mask for Valid Pixels
@@ -193,7 +193,7 @@ Moreover, the TCI product is product made of 3 bands with color adjustment techn
 
 To address the impact of varying valid pixel percentages in your batch (with some samples having 80% and others only 20% valid pixels), I recommend implementing a sample-weighted loss function. This approach calculates individual losses for each sample, then weights them based on their valid pixel percentage before averaging. This prevents sparse samples from being underrepresented while mitigating the risk of outliers in those samples disproportionately affecting training. You can choose between proportional weighting (favoring dense samples), equal weighting (treating all samples equally regardless of valid pixel count), or square root scaling (a balanced compromise). Additionally, you can incorporate outlier detection specifically for sparse samples to further reduce their negative impact on model learning.
 
-## Weighted Loss for Images with Varying Valid Pixel Percentages: A Summary
+# Weighted Loss for Images with Varying Valid Pixel Percentages: A Summary
 
 ## Problem Statement
 When training models on datasets where images have varying numbers of valid pixels (due to masks, missing data, etc.), standard loss functions face challenges:
@@ -266,82 +266,4 @@ Without normalization, the loss scale would fluctuate with batch composition, ma
 - **Flexibility**: Works with any base loss function (MSE, cross-entropy, etc.)
 - **Balance**: Square root weighting prevents both extremes - treating all samples equally or all pixels equally
 
-This weighted loss approach effectively handles the complexities of training on datasets with variable valid pixel counts while maintaining training stability
-
-
-## Preprocessing 
-
-#### 1. **Preprocessing: Normalize & Mask Valid Data**
-
-- Each spectral band (input or target) is normalized using **percentile stretching** between 2nd and 98th percentiles.
-    
-- A **validity mask** is created (`band > 0`) to exclude invalid pixels (e.g., clouds, no-data regions).
-    
-- Normalized bands and their validity masks are stacked channel-wise to form multi-spectral images.
-    
-
----
-
-#### 2. **Dataset Class: Sentinel2Dataset**
-
-- Reads input (`df_x`) and target (`df_y`) images for a given sample.
-    
-- Uses OpenCV to resize both data and masks to a fixed `img_size`.
-    
-- Converts all data to PyTorch tensors with channel-first format: `[C, H, W]`.
-    
-- Constructs a `valid_mask` (should ideally be `x_mask & y_mask`, though currently just `y_mask`) to identify which pixels are valid across all channels.
-    
-
----
-
-#### 3. **Metrics Engine: MultiSpectralMetrics**
-
-- Tracks evaluation metrics **per spectral band**:
-    
-    - **PSNR** (Peak Signal-to-Noise Ratio)
-        
-    - **RMSE** (Root Mean Square Error)
-        
-    - **SSIM** (Structural Similarity Index)
-        
-    - **SAM** (Spectral Angular Mapper)
-        
-- Each metric only processes **valid pixels** per band using the precomputed mask.
-    
-
----
-
-#### 4. **Training Function: `train_epoch()`**
-
-- For each training batch:
-    
-    - Applies the model to input data.
-        
-    - Computes loss **only over valid pixels** using the mask (`criterion(outputs[valid_mask], y_data[valid_mask])`).
-        
-    - Updates model weights via backpropagation.
-        
-    - Updates metrics using the full predictions and masks.
-        
-- Tracks average loss and metrics for the epoch.
-    
-
----
-
-### ✅ Key Strengths:
-
-- **Robust to invalid pixels** via `valid_mask`.
-    
-- **Band-wise metric computation**, useful for spectral applications like remote sensing.
-    
-- **Generalizable normalization** based on percentiles.
-    
-- Modular and readable structure.
-    
-
----
-
-
-
-## For the paper
+This weighted loss approach effectively handles the complexities of training on datasets with variable valid pixel counts while maintaining training stability.

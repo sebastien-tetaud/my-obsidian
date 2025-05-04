@@ -1,8 +1,9 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
+<<<<<<< HEAD
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
@@ -12,11 +13,37 @@
       "color": {
         "a": 1,
         "rgb": 14701138
+=======
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Data Visualization",
+      "color": {
+        "a": 1,
+        "rgb": 9068021
+      }
+    },
+    {
+      "query": "Web Dev",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "Deep Learning",
+      "color": {
+        "a": 1,
+        "rgb": 13193952
+>>>>>>> 7abb9be783c8d0bd0bb352e098c767e1e4c2a5f0
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
+<<<<<<< HEAD
   "textFadeMultiplier": -1.8,
   "nodeSizeMultiplier": 1.55628255208333,
   "lineSizeMultiplier": 1.70342610677083,
@@ -26,5 +53,16 @@
   "linkStrength": 1,
   "linkDistance": 160,
   "scale": 0.8197191546968798,
+=======
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.21496402877698,
+  "lineSizeMultiplier": 1.62489208633094,
+  "collapse-forces": false,
+  "centerStrength": 0.247944501541624,
+  "repelStrength": 12.7297019527235,
+  "linkStrength": 1,
+  "linkDistance": 309,
+  "scale": 0.5555774768115009,
+>>>>>>> 7abb9be783c8d0bd0bb352e098c767e1e4c2a5f0
   "close": true
 }
