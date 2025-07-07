@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Read/To Read.md",
+                "file": "Web Dev/ThreeJS/Class.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Read"
+              "title": "Class"
             }
           }
         ]
@@ -170,7 +170,19 @@
   },
   "active": "b96126f00464c819",
   "lastOpenFiles": [
+    "Deep Learning/Sentinel2 AI/Schedule.md",
+    "Web Dev/ThreeJS/Class.md",
+    "Web Dev/ThreeJS",
+    "Web Dev/Web Dev.md",
     "GCF.md",
+    "Web Dev/Design/Agencies.md",
+    "Web Dev/mapster/Schedule.md",
+    "Web Dev/Design",
+    "Web Dev/mapster",
+    "Web Dev/Front-End/Frond-end Stacks.md",
+    "Web Dev/Front-End/Install Node.js.md",
+    "Renault  Group.md",
+    "To Read/To Read.md",
     "Earth Observation/Sentinel 2 - Dataset.md",
     "2025-05-03.md",
     "Untitled.canvas",
