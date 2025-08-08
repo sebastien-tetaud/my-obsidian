@@ -1,3 +1,4 @@
+[[Deep Learning]][[Earth Observation/Sentinel 2  - Toward L2A processor|Sentinel 2  - Toward L2A processor]]
 # Weighted Loss for Images with Varying Valid Pixel Percentages: A Summary
 
 ## Problem Statement
